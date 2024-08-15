@@ -12,7 +12,7 @@ func do() -> void:
 	if item != null:
 		_owner.item_in_hand = item
 		_move_node(item, _owner._hand)
-		item.remove_from_group("items")
+		item.remove_from_group("item")
 	   
 func undo() -> void:
 	if _hands_were_full:
@@ -23,7 +23,8 @@ func undo() -> void:
 		
 	var item: Item = _owner.item_in_hand
 	_move_node(item, _owner.get_parent())
-	item.add_to_group("items")
+	item.add_to_group("item")
+	_owner.item_in_hand = null
 		
 
 func play() -> void:
