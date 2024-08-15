@@ -15,7 +15,7 @@ func do() -> void:
 	var item: Item = _owner.item_in_hand
 	_owner.item_in_hand = null
 	_move_node(item, _owner.get_parent())
-	item.add_to_group("items")
+	item.add_to_group("item")
 
 
 func undo() -> void:
@@ -25,7 +25,7 @@ func undo() -> void:
 	var item: Item = _owner.item_before_me
 	_owner.item_in_hand = item
 	_move_node(item, _owner._hand)
-	item.remove_from_group("items")
+	item.remove_from_group("item")
 
 
 func play() -> void:
