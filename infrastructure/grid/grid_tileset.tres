@@ -9,32 +9,24 @@
 texture = ExtResource("1_nkwxn")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
-0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/custom_data_0 = &"light blue"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8om65"]
 texture = ExtResource("1_ypv6n")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
-0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/custom_data_0 = &"blue"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hae55"]
 texture = ExtResource("2_2d6rp")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
-0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/custom_data_0 = &"pink"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e3v7k"]
 texture = ExtResource("3_b5s7o")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
-0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/custom_data_0 = &"yellow"
 
 [resource]

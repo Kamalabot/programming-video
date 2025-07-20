@@ -2,10 +2,10 @@
 
 [ext_resource type="TileSet" uid="uid://dkvmyh3ie358w" path="res://infrastructure/grid/grid_tileset.tres" id="1_e0to5"]
 [ext_resource type="PackedScene" uid="uid://buatvxdvveuad" path="res://infrastructure/mrg/mr_g.tscn" id="3_g2hrg"]
-[ext_resource type="Script" path="res://challenges/02_the_waiter/the_waiter.gd" id="4_y0fth"]
+[ext_resource type="Script" uid="uid://buona4lmvpssw" path="res://challenges/02_the_waiter/the_waiter.gd" id="4_y0fth"]
 [ext_resource type="PackedScene" uid="uid://cyl8j7q7nqiag" path="res://infrastructure/ui/ui.tscn" id="5_ylpjb"]
 [ext_resource type="PackedScene" uid="uid://bwmwivq8vfh4v" path="res://items/coffee.tscn" id="6_k06gy"]
-[ext_resource type="Script" path="res://infrastructure/ui/challenge_item.gd" id="7_f2rnj"]
+[ext_resource type="Script" uid="uid://wkcyguy5527h" path="res://infrastructure/ui/challenge_item.gd" id="7_f2rnj"]
 [ext_resource type="PackedScene" uid="uid://c16yxy0kb4wcw" path="res://infrastructure/ui/challenge_text.tscn" id="8_jms66"]
 [ext_resource type="Texture2D" uid="uid://ch3hpeoccj8gf" path="res://infrastructure/item/coffee.png" id="9_cptgx"]
 

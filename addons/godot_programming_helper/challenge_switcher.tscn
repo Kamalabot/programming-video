@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://3dtsqnysehsp"]
 
-[ext_resource type="Script" path="res://addons/godot_programming_helper/challenge_switcher.gd" id="1_4i5ds"]
+[ext_resource type="Script" uid="uid://jao3bqioebpw" path="res://addons/godot_programming_helper/challenge_switcher.gd" id="1_4i5ds"]
 
 [node name="ChallengeSwitcher" type="MarginContainer"]
 theme_override_constants/margin_left = 10

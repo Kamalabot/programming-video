@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://dkvmyh3ie358w" path="res://infrastructure/grid/grid_tileset.tres" id="1_2dbd6"]
 [ext_resource type="PackedScene" uid="uid://buatvxdvveuad" path="res://infrastructure/mrg/mr_g.tscn" id="1_jo3sr"]
-[ext_resource type="Script" path="res://welcome.gd" id="3_6vxvv"]
+[ext_resource type="Script" uid="uid://d1ctfymh8ywnm" path="res://welcome.gd" id="3_6vxvv"]
 [ext_resource type="PackedScene" uid="uid://dtw1de5jfjxue" path="res://infrastructure/coordinate_indicators/coordinate_overlay.tscn" id="4_f284w"]
 [ext_resource type="PackedScene" uid="uid://cyl8j7q7nqiag" path="res://infrastructure/ui/ui.tscn" id="4_gv4e2"]
 [ext_resource type="PackedScene" uid="uid://bwmwivq8vfh4v" path="res://items/coffee.tscn" id="5_6p0ys"]
@@ -31,7 +31,7 @@ position = Vector2(248, 258)
 script = ExtResource("3_6vxvv")
 
 [node name="Coffee" parent="." instance=ExtResource("5_6p0ys")]
-position = Vector2(776, 255)
+position = Vector2(893, 254)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

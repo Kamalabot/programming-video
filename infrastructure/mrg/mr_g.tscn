@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://03uxw6earmm" path="res://infrastructure/mrg/mrg0000.png" id="1_0n1ua"]
 [ext_resource type="PackedScene" uid="uid://c1ss80r1o2jlf" path="res://infrastructure/speech_bubble/speech_bubble.tscn" id="2_cnh5j"]
-[ext_resource type="Script" path="res://infrastructure/mrg/no_rotate.gd" id="2_uammv"]
+[ext_resource type="Script" uid="uid://nlpkpi6ux3cc" path="res://infrastructure/mrg/no_rotate.gd" id="2_uammv"]
 
 [node name="Mr G" type="Node2D"]
 

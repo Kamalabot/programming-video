@@ -2,10 +2,10 @@
 
 [ext_resource type="TileSet" uid="uid://dkvmyh3ie358w" path="res://infrastructure/grid/grid_tileset.tres" id="1_m67dt"]
 [ext_resource type="PackedScene" uid="uid://buatvxdvveuad" path="res://infrastructure/mrg/mr_g.tscn" id="3_anxnu"]
-[ext_resource type="Script" path="res://challenges/01_walking_in_circles/walking_in_circles.gd" id="4_15edt"]
+[ext_resource type="Script" uid="uid://ddo5uclpg6yjb" path="res://challenges/01_walking_in_circles/walking_in_circles.gd" id="4_15edt"]
 [ext_resource type="PackedScene" uid="uid://cyl8j7q7nqiag" path="res://infrastructure/ui/ui.tscn" id="5_roimi"]
 [ext_resource type="PackedScene" uid="uid://bwmwivq8vfh4v" path="res://items/coffee.tscn" id="6_1f71p"]
-[ext_resource type="Script" path="res://infrastructure/ui/challenge_item.gd" id="7_ch3xk"]
+[ext_resource type="Script" uid="uid://wkcyguy5527h" path="res://infrastructure/ui/challenge_item.gd" id="7_ch3xk"]
 [ext_resource type="PackedScene" uid="uid://c16yxy0kb4wcw" path="res://infrastructure/ui/challenge_text.tscn" id="8_ip8i3"]
 [ext_resource type="Texture2D" uid="uid://ch3hpeoccj8gf" path="res://infrastructure/item/coffee.png" id="9_2wd3i"]
 
@@ -18,20 +18,20 @@ format = 2
 layer_0/tile_data = PackedInt32Array(65537, 1, 0, 131073, 1, 0, 196609, 1, 0, 262145, 1, 0, 327681, 1, 0, 393217, 1, 0, 458753, 1, 0, 65538, 2, 0, 131074, 2, 0, 196610, 2, 0, 262146, 2, 0, 327682, 2, 0, 393218, 2, 0, 458754, 2, 0, 65539, 2, 0, 131075, 3, 0, 196611, 3, 0, 262147, 3, 0, 327683, 3, 0, 393219, 3, 0, 458755, 2, 0, 65540, 2, 0, 131076, 3, 0, 196612, 0, 0, 262148, 0, 0, 327684, 0, 0, 393220, 3, 0, 458756, 2, 0, 65541, 2, 0, 131077, 3, 0, 196613, 0, 0, 262149, 1, 0, 327685, 0, 0, 393221, 3, 0, 458757, 2, 0, 65542, 2, 0, 131078, 3, 0, 196614, 0, 0, 262150, 0, 0, 327686, 0, 0, 393222, 3, 0, 458758, 2, 0, 65543, 2, 0, 131079, 3, 0, 196615, 3, 0, 262151, 3, 0, 327687, 3, 0, 393223, 3, 0, 458759, 2, 0, 65544, 2, 0, 131080, 2, 0, 196616, 2, 0, 262152, 2, 0, 327688, 2, 0, 393224, 2, 0, 458760, 2, 0, 65545, 1, 0, 131081, 1, 0, 196617, 1, 0, 262153, 1, 0, 327689, 1, 0, 393225, 1, 0, 458761, 1, 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4, 1, 0, 5, 1, 0, 6, 1, 0, 7, 1, 0, 8, 1, 0, 9, 1, 0, 524289, 1, 0, 524290, 1, 0, 524291, 1, 0, 524292, 1, 0, 524293, 1, 0, 524294, 1, 0, 524295, 1, 0, 524296, 1, 0, 524297, 1, 0)
 
 [node name="Mr G" parent="." instance=ExtResource("3_anxnu")]
-position = Vector2(506, 388)
+position = Vector2(378, 262)
 script = ExtResource("4_15edt")
 
 [node name="Coffee" parent="." instance=ExtResource("6_1f71p")]
-position = Vector2(1154, 387)
+position = Vector2(899, 387)
 
 [node name="Coffee2" parent="." instance=ExtResource("6_1f71p")]
-position = Vector2(1149, 251)
+position = Vector2(518, 258)
 
 [node name="Coffee3" parent="." instance=ExtResource("6_1f71p")]
-position = Vector2(1156, 512)
+position = Vector2(754, 762)
 
 [node name="Coffee4" parent="." instance=ExtResource("6_1f71p")]
-position = Vector2(1157, 631)
+position = Vector2(374, 635)
 
 [node name="--CHALLENGES--" type="Node2D" parent="."]
 metadata/_edit_lock_ = true

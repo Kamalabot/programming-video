@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://c1ss80r1o2jlf"]
 
-[ext_resource type="Script" path="res://infrastructure/speech_bubble/speech_bubble.gd" id="1_v5lju"]
+[ext_resource type="Script" uid="uid://bna5swhhmtnc5" path="res://infrastructure/speech_bubble/speech_bubble.gd" id="1_v5lju"]
 [ext_resource type="Texture2D" uid="uid://ba8cheb4oo1pw" path="res://infrastructure/speech_bubble/speech_bubble.svg" id="1_w5aob"]
 
 [node name="Node2D" type="Node2D"]
