@@ -16,7 +16,8 @@ var coordinates:Vector2i:
 	get: return Vector2i(roundi(global_position.x / 128), roundi(global_position.y / 128))
 	
 	
-		
+# We need the coordinates of the Coffee or Tea Item which can be recieved 
+# once it is placed. But why do that as a tool?
 func _ready():
 	# move to closest grid center
 	if not Engine.is_editor_hint():
@@ -28,5 +29,3 @@ func _refresh():
 	if sprite_2d != null:
 		sprite_2d.texture = texture		 
 	
-
-

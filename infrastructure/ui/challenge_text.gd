@@ -24,5 +24,3 @@ func _richtextify(input:String) -> String:
 	backticks.compile("`(.*?)`")
 	result = backticks.sub(input, "[code]$1[/code]", true)	
 	return result
-
-

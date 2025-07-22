@@ -35,4 +35,3 @@ func _repaint():
 			label.text = "%s, %s" % [x + grid_offset.x, y + grid_offset.y]
 			_grid_container.add_child(label)
 			
-

@@ -21,6 +21,7 @@ func say(text:String, duration:float = 2.0) -> void:
 	
 	await get_tree().create_timer(duration).timeout
 	
-	tween = create_tween()
+	tween = create_tween() # creates tween object
 	tween.tween_property(self, "modulate", Color.TRANSPARENT, 0.3)
+	# modulate property on self whether the color is tweened
 	await tween.finished

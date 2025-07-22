@@ -1,0 +1,10 @@
+Review how the tres are created. I remember that a Resource file has to be created to begin with
+Then need to edit it. When I am creating it as resource, unable to recollect how it was done
+
+There is a gd script with class_name ClassName and that extendes Resource. 
+There are attr to this ClassName, which can contain other objects. 
+
+Then we can create a new resource in Godot and select the created ClassName, and the save it as tres.
+After that, double clicking opens the resource directly in the UI only.  
+
+The class for grid_tileset.tres is not available
